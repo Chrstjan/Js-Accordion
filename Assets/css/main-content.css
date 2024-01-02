@@ -1,0 +1,43 @@
+.accordions {
+  padding: 1rem 1rem 0rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.accordions .product {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+}
+
+.product header {
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background: darkred;
+  color: #fff;
+}
+
+.product .product-desc {
+  display: none;
+}
+
+.product-desc.show-desc {
+  margin-top: 0.6rem;
+  display: block;
+  border: 2px solid #888;
+  border-radius: 6px;
+  background: #eee;
+}
+
+.product-desc footer {
+  text-align: right;
+}
+
+.product-desc footer a {
+  padding-right: 0.6rem;
+  color: darkcyan;
+  text-decoration: underline;
+  cursor: pointer;
+}
