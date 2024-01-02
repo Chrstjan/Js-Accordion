@@ -1,2 +1,2 @@
-# Html-Boilerplate
-A Html Boilerplate
+# Js Accordion
+Accordions made with javascript
